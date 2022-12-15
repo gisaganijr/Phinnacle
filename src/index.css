@@ -1,8 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -11,3 +12,151 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+ 
+@font-face {
+  font-family: 'Roc Grotesk Black';
+  src: url('./fonts/Roc Grotesk Black.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roc Grotesk Bold';
+  src: url('./fonts/Roc Grotesk Bold.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+ 
+@font-face {
+  font-family: 'Roc Grotesk Condensed Bold';
+  src: url('./fonts/Roc Grotesk Condensed Bold.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+ 
+@font-face {
+  font-family: 'Roc Grotesk Condensed Extrabold';
+  src: url('./fonts/Roc Grotesk Condensed Extrabold.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roc Grotesk Condensed';
+  src: url('./fonts/Roc Grotesk Condensed.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roc Grotesk Extrabold';
+  src: url('./fonts/Roc Grotesk Extrabold.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roc Grotesk Extralight';
+  src: url('./fonts/Roc Grotesk Extralight.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roc Grotesk Heavy';
+  src: url('./fonts/Roc Grotesk Heavy.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roc Grotesk Light';
+  src: url('./fonts/Roc Grotesk Light.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roc Grotesk Medium';
+  src: url('./fonts/Roc Grotesk Medium.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roc Grotesk Thin';
+  src: url('./fonts/Roc Grotesk Thin.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roc Grotesk Wide Black';
+  src: url('./fonts/Roc Grotesk Wide Black.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roc Grotesk Wide Extrabold';
+  src: url('./fonts/Roc Grotesk Wide Extrabold.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roc Grotesk Wide Extralight';
+  src: url('./fonts/Roc Grotesk Wide Extralight.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roc Grotesk Wide Heavy';
+  src: url('./fonts/Roc Grotesk Wide Heavy.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roc Grotesk Wide Light';
+  src: url('./fonts/Roc Grotesk Wide Light.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roc Grotesk Wide Medium';
+  src: url('./fonts/Roc Grotesk Wide Medium.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roc Grotesk Wide Thin';
+  src: url('./fonts/Roc Grotesk Wide Thin.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roc Grotesk Wide Thin2';
+  src: url('./fonts/Roc Grotesk Wide Thin2.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roc Grotesk Wide';
+  src: url('./fonts/Roc Grotesk Wide.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roc Grotesk Wide2';
+  src: url('./fonts/Roc Grotesk Wide2.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
